@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+            
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>university website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"> <img src="img/logo.png"></a> 
+            <div class="nav-links" id="navLinks">
+                <i class="bi bi-x-lg" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="bi bi-list" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>We’re a leading research university with a heart.
+                Founded in the decade that the U.S. Constitution was signed,
+                we’re the nation’s oldest Catholic and Jesuit university.
+                Today we’re <br> a forward-looking, diverse community devoted
+                to social justice, restless inquiry and respect for each person’s 
+                individual needs and talents..</p>
+                <a href="" class="hero-btn">VIsit Us To Know More</a>
+        </div>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+    </script>
+    </section>
+    
+
+<!-------course----------->
+
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Explore the intersection of technology and society.
+        Learn about environmental justice. Take the
+        famous Problem of God course. Our innovative <br> courses inspire
+        and invite you to help solve some of today’s most 
+        pressing local, national and global issues.</p>
+
+        <div class="row">
+                <div class="course-col">
+                    <h3>Undergraduated programs</h3>
+                    <p>For decades, Eduford College has improved thehealth of our communities, one graduate at
+                        a time. The JoAnn McGrath School of Nursing and Health Professions, as one of the largest 
+                        nursing schools in Wisconsin, offers a wide array of fully accredited nursing programs, 
+                        guaranteed clinical placements and a technology-rich Center for Clinical Education.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Graduate programs</h3>
+                    <p>Building on our strong roots in leadership, health care and education, Eduford is proud to
+                         offer an array of coed graduate programs for women and men who are ready to advance their
+                          careers and grow as leaders. The Eduford College Community Psychology Master's program will
+                           help you to meet your goals of becoming a Licensed Professional Counselor</p>
+                </div>
+                <div class="course-col">
+                    <h3>Post Graduate</h3>
+                    <p>The Eduford, as one of the largest nursing schools in Wisconsin, offers a wide array of fully
+                         accredited nursing programs, guaranteed clinical placements and a technology-rich Center
+                          for Clinical Education. The Eduford College Community Psychology Master's program will
+                           help you to meet your goals of becoming a Licensed Professional Counselor.</p>
+                </div>
+        </div>
+
+</section>
+
+<!-----campus----->
+
+        <section class="campus">
+            <h1>Our Global Campus</h1>
+            <p>The University of Hartford's main campus is located on Bloomfield Avenue. Surrounded by green space,
+                 the main campus is divided into residential <br> and academic buildings connected by a bridge that
+                  overlooks the north branch of the Park River, known to us as Hog River.</p>
+
+            <div class="row">
+            <div class="campus-col">
+                            <img src="img/london.png">
+                            <div class="layer">
+                                    <h3>LONDON</h3>
+
+                    </div>
+            </div>
+            <div class="campus-col">
+                        <img src="img/newyork.png">
+                        <div class="layer">
+                                <h3>NEWYORK</h3>
+
+                    </div>
+            </div>
+            <div class="campus-col">
+                    <img src="img/washington.png">
+                    <div class="layer">
+                            <h3>WASHINGTON</h3>
+
+                    </div>
+            </div>
+            </div>
+
+        </section>
+
+<!----facilities----->
+
+
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <p>We commit to meet the financial need of every admitted undergraduate student.
+         We don’t consider your ability to pay when we review your <br> application, and
+          we don’t base our decision on whether you can cover the cost.
+           If you’re accepted here, you belong here.</p>
+
+        <div class="row">
+            <!-- <div class="facilities-col">
+                <img src="img/library.png">
+                <h3>World Class library</h3>
+                <p>
+                    A world-class library is a distinguished institution that stands
+                     out for its exceptional resources, services, and facilities
+                      in the realm of knowledge and information. These libraries
+                       typically house extensive collections of books, manuscripts,
+                        journals, and multimedia materials, spanning diverse subject
+                         areas and catering to the intellectual needs of a wide audience.</p>
+            </div> -->
+            <div class="card" style="width: 18rem">
+                <img src="img/library.png" class="card-img-top" width="200px">
+                <div class="card-body">
+                  <h5 class="card-title">World class library</h5>
+                  <p>
+                    A world-class library is a distinguished institution that stands
+                     out for its exceptional resources, services, and facilities
+                      in the realm of knowledge and information. These libraries
+                       typically house extensive collections of books, manuscripts.
+                        </p>
+                </div>
+              </div>
+            
+
+
+            <!-- <div class="facilities-col">
+                <img src="img/basketball.png">
+                <h3>Largest Playing Ground</h3>
+                <p>The largest playing ground is a vast and expansive
+                     space dedicated to various recreational activities
+                      and sports. With extensive dimensions, it offers ample
+                       room for multiple sports and games to be played simultaneously.</p>
+                </div> -->
+                <div class="card" style="width: 18rem;">
+                    <img src="img/basketball.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Largest playing ground</h5>
+                      <p>The largest playing ground is a vast and expansive
+                        space dedicated to various recreational activities
+                         and sports. With extensive dimensions, it offers ample
+                          room for multiple sports and games to be played simultaneously.</p>
+                    </div>
+                  </div>
+            
+
+
+            <!-- <div class="facilities-col">
+                <img src="img/cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Tasty and healthy food is a delightful combination
+                     that not only satisfies the palate but also
+                      nourishes the body. It involves the artful selection
+                       of fresh, wholesome ingredients that are rich
+                        in essential nutrients, vitamins, and minerals.</p>
+            </div> -->
+            <div class="card" style="width: 18rem;">
+                <img src="img/cafeteria.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Tasty and healthy food</h5>
+                  <p>Tasty and healthy food is a delightful combination
+                    that not only satisfies the palate but also
+                     nourishes the body. It involves the artful selection
+                      of fresh, wholesome ingredients that are rich
+                       in essential nutrients, vitamins, and minerals.</p>
+                </div>
+              </div>
+        </div>
+</section>
+
+<!---------testimonials------------>
+
+<section class="testimonials">
+        <h1>What Our Students Says</h1>
+        <p>We commit to meet the financial need of every admitted
+             undergraduate student. We don’t consider your ability
+              to pay when we review your application, and we don’t
+               base our decision on whether you can cover 
+               the cost. If you’re accepted here, you belong here.</p>
+
+            <div class="row">
+                <div class="testimonials-col">
+                    <img src="img/user1.jpg">
+                    <div>
+                        <p>“Eduford is home to me not because of the fancy 
+                            buildings like Healy Hall, or its prestigious
+                             reputation, but rather because of the university’s 
+                             care for the whole person as each of us attempts to live our lives for others.”</p>
+                             <h3>Anamika Saha</h3>
+                             <i class="bi bi-star-fill"></i>
+                             <i class="bi bi-star-fill"></i>
+                             <i class="bi bi-star-fill"></i>
+                             <i class="bi bi-star-fill"></i>
+                             <i class="bi bi-star-half"></i>
+                    </div>
+                </div>
+                <div class="testimonials-col">
+                    <img src="img/user2.jpg">
+                    <div>
+                        <p>“It’s likely that you will come to love some
+                             of the most amazing souls this campus has to offer.
+                              That love may come in the form of friendships
+                               that you know will last forever.”</p>
+                             <h3>Abhishek Roy</h3>
+                             <i class="bi bi-star-fill"></i>
+                             <i class="bi bi-star-fill"></i>
+                             <i class="bi bi-star-fill"></i>
+                             <i class="bi bi-star-fill"></i>
+                             <i class="bi bi-star"></i>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+</section>
+
+<!----------call to action------------>
+
+
+<section class="cta">
+    <h1>Enroll For Our Various Online Courses <br>
+        Anywhere from the World</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+</section>
+
+
+<!-----------footer------------->
+<section class="footer">
+        <h4>About Us</h4>
+        <p>We’re a leading research university with a heart.
+             Founded in the decade that the U.S. Constitution
+              was signed, we’re the nation’s oldest Catholic and
+               Jesuit university. We’re a <br> community of people who
+                bridge our disparate experiences and identities.
+                 Meet the people and places that make Eduford home.</p>
+            <div class="icons">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-linkedin"></i>
+                <p>Made With <i class="bi bi-heart"></i></p>
+            </div>
+
+</section>
+
+
+
+
+
+<!--------javascript for toggle menu--------->
+
+
+
+
+
+
+
+
+</body>
+</html>
